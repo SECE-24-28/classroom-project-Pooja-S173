@@ -1,0 +1,41 @@
+main{
+    background-color: bisque;
+    height: 650px;
+    width: 650px;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    animation-name: mainanimation;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    gap:35px;
+}   
+
+@keyframes mainanimation{
+    0%{background-color: red;}
+    25%{background-color: yellow;}
+    50%{background-color: orange;}
+    75%{background-color: gray;}
+    100%{background-color: blue;}
+}
+
+
+.div{
+    background-color: cadetblue;
+    height: 305px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px; 
+}
+
+.second-div{
+    background-color: cadetblue;
+    height: 305px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
