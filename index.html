@@ -1,34 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <main>
-      <div class="div">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis,
-          consequatur?
-        </p>
-      </div>
+<html>
+<head>
+  <title>Simple Calculator</title>
+</head>
+<body>
 
-      <div>
-        <div class="div">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
-            doloremque.
-          </p>
+  <h2>Simple Calculator (Console Output)</h2>
 
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-        
-        <div class="second-div">
-          <p>Lorem ipsum dolor sit amet.</p>
-        </div>
-      </div>
-    </main>
-  </body>
+  <input type="number" id="num1" placeholder="Enter first number"><br><br>
+  <input type="number" id="num2" placeholder="Enter second number"><br><br>
+
+  <input type="text" id="op" placeholder="Enter operator + - * /"><br><br>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <!-- ✅ Correct path to script file -->
+  <script src="script/script.js"></script>
+
+</body>
 </html>
